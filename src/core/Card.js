@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import {Link} from "react-router-dom";
 import "./Card.css";
 import ShowImage from "./ShowImage";
 
@@ -10,9 +11,12 @@ const Card = ({videogame}) => {
         <div>
             <ShowImage className="img" item={videogame} url="videogame"/>
             <h2>{videogame.name}</h2>
-            <p>${videogame.price}</p>
+            <p><i>Aprox price $</i>{videogame.price}</p>
             <p>{videogame.description}</p>
-            <button className="btn btn-success">Ver mas</button>
+            <p><i><b>Category: </b></i> {videogame.category.name}</p>
+            <Link to = {`/games/${videogame._id}`}>
+                <button className="btn btn-success" >Show more</button>
+            </Link>
         </div>
     </div>
  )
