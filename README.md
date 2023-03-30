@@ -1,8 +1,14 @@
 # MERN Frontend
+
+<div align="center">
+  <img src="./public/logo512.png">
+</div>
+
+## Description :ghost:
 This is the frontend for a full-stack MERN (MongoDB, Express, React, Node.js) web application. This frontend is built using React, and it provides the user interface for interacting with the backend API.
 
-## Getting Started
-To get started with this project, you'll need to have Node.js installed on your computer. You can download Node.js from the official website [node](https://nodejs.org/).
+## Getting Started :alien:
+To get started with this project, you'll need to have Node.js installed on your computer. You can download Node.js from the official website [Node](https://nodejs.org/).
 
 Once you have Node.js installed, you can clone this repository to your local machine:
 
@@ -36,7 +42,7 @@ npm start
 
 The frontend should now be running on `http://localhost:3000/` and communicating with your backend API.
 
-## Features
+## Features :space_invader:
 This frontend provides the following features:
 
 * View a list of all categories.
@@ -50,7 +56,7 @@ This frontend provides the following features:
 * Sign in to an existing user account.
 * Sign out of the user account.
 
-## Dependencies
+## Dependencies :robot:
 This frontend relies on the following dependencies:
 
 * `react`: A JavaScript library for building user interfaces.
@@ -62,7 +68,8 @@ This frontend relies on the following dependencies:
 * `react-icons`: A package that provides a collection of popular icons as React components.
 
 
-
+## Bugs :bomb:
+If you find any bug, please, let me know.
 
 
 
