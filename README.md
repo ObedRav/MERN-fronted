@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# MERN Frontend
+This is the frontend for a full-stack MERN (MongoDB, Express, React, Node.js) web application. This frontend is built using React, and it provides the user interface for interacting with the backend API.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
+To get started with this project, you'll need to have Node.js installed on your computer. You can download Node.js from the official website [node](https://nodejs.org/).
 
-## Available Scripts
+Once you have Node.js installed, you can clone this repository to your local machine:
 
-In the project directory, you can run:
+```
+git clone https://github.com/ObedRav/MERN-fronted.git
+```
 
-### `npm start`
+After cloning the repository, navigate to the MERN-fronted directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+cd MERN-fronted
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install the required packages:
 
-### `npm test`
+```
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Modify the `src/config.js` file in the root of the `MERN-fronted` directory and add the following environment variables:
 
-### `npm run build`
+```
+export const API = <the URL of your backend API>
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Finally, start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The frontend should now be running on `http://localhost:3000/` and communicating with your backend API.
 
-### `npm run eject`
+## Features
+This frontend provides the following features:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* View a list of all categories.
+* View a list of all video games.
+* View the details of a single video game, including its photo.
+* Add a new category to the database.
+* Add a new video game to the database.
+* Delete a category from the database.
+* Delete a video game from the database.
+* Sign up for a new user account.
+* Sign in to an existing user account.
+* Sign out of the user account.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dependencies
+This frontend relies on the following dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* `react`: A JavaScript library for building user interfaces.
+* `react-dom`: A package that provides DOM-specific methods for working with React.
+* `react-router-dom`: A package that provides routing functionality for React applications.
+* `axios`: A package that provides a simple way to make HTTP requests from the browser.
+* `jwt-decode`: A package that provides a simple way to decode JSON Web Tokens (JWTs).
+* `react-bootstrap`: A package that provides Bootstrap components as React components.
+* `react-icons`: A package that provides a collection of popular icons as React components.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
