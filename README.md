@@ -42,6 +42,12 @@ npm start
 
 The frontend should now be running on `http://localhost:3000/` and communicating with your backend API.
 
+## Mockup
+
+<div align="center">
+  <img src="./Mockup fronted.png">
+</div>  
+
 ## Features :space_invader:
 This frontend provides the following features:
 
